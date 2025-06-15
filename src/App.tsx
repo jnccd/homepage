@@ -17,7 +17,7 @@ function App() {
         ></Image>
       </Box>
       <Box id="le-centered-div">
-        <svg width="1400px" height="auto" viewBox="-40 -10 540 200">
+        <svg width="55vw" height="auto" viewBox="-40 -10 540 200">
           <path
             id="curve"
             d="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145"
