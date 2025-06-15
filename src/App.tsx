@@ -1,10 +1,7 @@
 import "./App.css";
-import { useState } from "react";
-import { Box, Image, transform } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Box width="100vw" height="100vh" id="background" backgroundColor="#1E2220">
       <Box id="le-left-div">
