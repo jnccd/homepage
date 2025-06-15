@@ -1,35 +1,53 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { useState } from "react";
+import { Box, Image, transform } from "@chakra-ui/react";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Box width="100vw" height="100vh" id="background" backgroundColor="#1E2220">
+      <Box id="le-left-div">
+        <Image src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTh5cTJzNzVpeHZjdzhvNmZqbGVoY2Z0YWdxMGF1c3MyaGEwMTRqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hTB0DVUJ9Zvoowd7aW/giphy.gif"></Image>
+      </Box>
+      <Box id="le-right-div">
+        <Image
+          style={{ transform: "scaleX(-1)" }}
+          src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTh5cTJzNzVpeHZjdzhvNmZqbGVoY2Z0YWdxMGF1c3MyaGEwMTRqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hTB0DVUJ9Zvoowd7aW/giphy.gif"
+        ></Image>
+      </Box>
+      <Box id="le-centered-div">
+        <svg width="1400px" height="auto" viewBox="-40 -10 540 200">
+          <path
+            id="curve"
+            d="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145"
+            fill="none"
+          >
+            <animate
+              dur="5s"
+              attributeType="XML"
+              attributeName="d"
+              repeatCount="indefinite"
+              values="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145;
+           M 16 58 C 45 110 96 141 146 146 C 213 151 232 13 266 36 c 59 36 29 108 131 102;
+           M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145;"
+            />
+          </path>
+          <text
+            font-family="Comic Sans MS"
+            className="glow"
+            fill="pink"
+            fontSize="38"
+            width="500"
+            textLength="80%"
+            lengthAdjust="spacing"
+          >
+            <textPath href="#curve">Hewwo everynyaaaan</textPath>
+          </text>
+        </svg>
+      </Box>
+    </Box>
+  );
 }
 
-export default App
+export default App;
