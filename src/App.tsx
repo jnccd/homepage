@@ -5,10 +5,16 @@ function App() {
   return (
     <Box width="100vw" height="100vh" id="background" backgroundColor="#1E2220">
       <Box id="le-left-div">
-        <Image src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTh5cTJzNzVpeHZjdzhvNmZqbGVoY2Z0YWdxMGF1c3MyaGEwMTRqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hTB0DVUJ9Zvoowd7aW/giphy.gif"></Image>
+        <Image
+          width="15vw"
+          height="auto"
+          src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTh5cTJzNzVpeHZjdzhvNmZqbGVoY2Z0YWdxMGF1c3MyaGEwMTRqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hTB0DVUJ9Zvoowd7aW/giphy.gif"
+        ></Image>
       </Box>
       <Box id="le-right-div">
         <Image
+          width="15vw"
+          height="auto"
           style={{ transform: "scaleX(-1)" }}
           src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTh5cTJzNzVpeHZjdzhvNmZqbGVoY2Z0YWdxMGF1c3MyaGEwMTRqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hTB0DVUJ9Zvoowd7aW/giphy.gif"
         ></Image>
