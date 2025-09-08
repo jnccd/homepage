@@ -1,6 +1,6 @@
 import "./App.css";
 import { VStack } from "@chakra-ui/react";
-import HewwoText from "./components/HewwoText";
+import HewwoText from "./components/hewwoText";
 import Clippy from "./components/clippy/clippy";
 import Oneko from "./components/oneko/oneko";
 import Mousetrail from "./components/mousetrail";
