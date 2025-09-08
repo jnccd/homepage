@@ -3,6 +3,7 @@ import { VStack } from "@chakra-ui/react";
 import HewwoText from "./components/HewwoText";
 import Clippy from "./components/clippy/clippy";
 import Oneko from "./components/oneko/oneko";
+import Mousetrail from "./components/mousetrail";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
 
       <Clippy />
       <Oneko />
+      <Mousetrail />
     </VStack>
   );
 }
