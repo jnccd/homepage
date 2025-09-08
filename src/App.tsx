@@ -2,6 +2,7 @@ import "./App.css";
 import { VStack } from "@chakra-ui/react";
 import HewwoText from "./components/HewwoText";
 import Clippy from "./components/clippy/clippy";
+import Oneko from "./components/oneko/oneko";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       ></iframe>
 
       <Clippy />
+      <Oneko />
     </VStack>
   );
 }

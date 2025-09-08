@@ -11,7 +11,7 @@ const HewwoText = () => {
         ></Image>
       </Box>
       <Box id="le-centered-div">
-        <svg width="55vw" height="auto" viewBox="-40 -10 540 200">
+        <svg width="55vw" viewBox="-40 -10 540 200">
           <path
             id="curve"
             d="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145"
@@ -28,7 +28,7 @@ const HewwoText = () => {
             />
           </path>
           <text
-            font-family="Comic Sans MS"
+            fontFamily="Comic Sans MS"
             className="glow"
             fill="pink"
             fontSize="38"

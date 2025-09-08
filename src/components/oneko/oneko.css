@@ -1,0 +1,12 @@
+#oneko {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  pointer-events: none;
+  image-rendering: pixelated;
+  left: 980.407px;
+  top: 218.418px;
+  z-index: 2147483647;
+  background-image: url(&quot;/js/oneko.gif&quot;);
+  background-position: -96px -96px;
+}
