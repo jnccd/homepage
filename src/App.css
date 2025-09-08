@@ -1,29 +1,4 @@
-#le-centered-div {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
 
-#le-left-div {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 15%;
-  -ms-transform: translateX(-85%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-#le-right-div {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 85%;
-  -ms-transform: translateX(-15%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
 
 .glow {
   color: #fff;
