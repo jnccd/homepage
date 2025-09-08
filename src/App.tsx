@@ -1,9 +1,9 @@
 import "./App.css";
 import { VStack } from "@chakra-ui/react";
-import HewwoText from "./components/hewwoText";
-import Clippy from "./components/clippy/clippy";
-import Oneko from "./components/oneko/oneko";
-import Mousetrail from "./components/mousetrail";
+import HewwoText from "./components/HewwoText";
+import Clippy from "./components/clippy/Clippy";
+import Oneko from "./components/oneko/Oneko";
+import Mousetrail from "./components/Mousetrail";
 
 function App() {
   return (
