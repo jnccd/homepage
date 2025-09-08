@@ -1,6 +1,6 @@
 import "./App.css";
-import { Box, HStack, Image, VStack } from "@chakra-ui/react";
-import HewwoText from "./components/hewwoText";
+import { VStack } from "@chakra-ui/react";
+import HewwoText from "./components/HewwoText";
 import Clippy from "./components/clippy/clippy";
 
 function App() {
