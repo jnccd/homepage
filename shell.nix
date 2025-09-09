@@ -2,13 +2,9 @@
 { pkgs ? import <nixpkgs> {} }:
 with pkgs;
 mkShell {
-  packages = [
-    importNpmLock.hooks.linkNodeModulesHook
-    nodejs
-  ];
+  packages = [ pnpm nodejs_22 ];
 
-  npmDeps = importNpmLock.buildNodeModules {
-    npmRoot = ./.;
-    inherit nodejs;
-  };
+  shellHook = ''
+    pnpm i
+  '';
 }
