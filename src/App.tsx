@@ -9,7 +9,7 @@ function App() {
   return (
     <VStack
       width="100vw"
-      height="95vh"
+      height="100vh"
       id="background"
       backgroundColor="#1E2220"
       background='url("./stars-space.gif")'
