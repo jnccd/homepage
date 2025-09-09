@@ -9,9 +9,12 @@ function App() {
   return (
     <VStack
       width="100vw"
-      height="100vh"
+      height="95vh"
       id="background"
       backgroundColor="#1E2220"
+      background='url("./stars-space.gif")'
+      backgroundRepeat={"repeat"}
+      backgroundSize={"250px auto"}
     >
       <HewwoText />
 
