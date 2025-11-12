@@ -189,6 +189,8 @@ function createDiv(height, width) {
   div.style.height=height+"px";
   div.style.width=width+"px";
   div.style.overflow="hidden";
+  div.style.top="0px";
+  div.style.left="0px";
   return (div);
 }
 
